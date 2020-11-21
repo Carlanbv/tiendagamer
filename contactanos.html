@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="contactanos.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar-top">
+            <ul class="navbar-top-ul">
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">
+                        <i class="fas fa-clipboard"></i>
+                        Registro
+                    </a>
+                </li>
+
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Iniciar sesión
+                    </a>
+                </li>
+
+                <li class="navbar-top-item">
+                    <a href="#" class="navbar-top-links">
+                        <i class="fas fa-shopping-cart"></i>
+                        Carrito
+                
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <header class="nabvar-mobile is-size-5-mobile">
+                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
+                <a class="navbar-mobile-link has-text-white" href="index.html">CF GAMER</a>
+                <a class="navbar-mobile-link has-text-white" href="#"><i class="zmdi zmdi-shopping-cart"></i> Vacio</a>
+            </header>
+
+
+
+                <a class="inicio" class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html"><i class="fas fa-home"></i></i>
+                    INICIO
+                </a>
+                
+    </header>
+
+    <div class="content">
+
+        <h1 class="logo">Contactanos <span><i class="fas fa-envelope-square"></i></span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label>NombreCompleto</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Correo Electronico </label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de Celular</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Mas Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Claudio Farfan 3040 </li>
+                    <li><i class="fas fa-phone"></i> (591) 67721133</li>
+                    <li><i class="fas fa-envelope-open-text"></i> cfgamer@website.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <p>Company.com</p>
+                <div id="map"></div>
+                <script src="api.js"></script>
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnc1wUPXZNJ5BXfSqXa8w8u-7n6WiWfI8&callback=iniciarMap"></script>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
