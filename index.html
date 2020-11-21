@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda articulos gamer">
+	<meta name="author" content="Carla"/>
+    <title>CFGAMER</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <meta name="keywords" content="Tienda online, Gadgets"/>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar-top">
+            <ul class="navbar-top-ul">
+                <li class="navbar-top-item">
+                    <a href="register.html" class="navbar-top-links">
+                        <i class="fas fa-clipboard"></i>
+                        Registro
+                    </a>
+                </li>
+
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Iniciar sesión
+                    </a>
+                </li>
+
+                <li class="navbar-top-item">
+                    <a href="#" class="navbar-top-links">
+                        <i class="fas fa-shopping-cart"></i>
+                        Carrito
+                
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <header class="nabvar-mobile is-size-5-mobile">
+                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
+                <a class="navbar-mobile-link has-text-white" href="index.html">CF GAMER</a>
+                <a class="navbar-mobile-link has-text-white" href="#"><i class="zmdi zmdi-shopping-cart"></i> Vacio</a>
+            </header>
+            <nav class="nav-menu" id="mySidenav">
+                <form class="form-group " action="#">
+                    <div class="form-group-container">
+                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
+                        <input type="text" class="form-group-input" placeholder="Buscar...">
+                    </div>
+                </form>
+
+                <a class="inicio" class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html">
+                    <i class="fas fa-home"></i>
+                    INICIO</a>
+
+
+
+                    <a class="inicio" class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="nosotros.html">
+                        <i class="fab fa-creative-commons-by"></i>
+                        NOSOTROS</a>
+
+                    <a class="inicio" class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="contactanos.html">
+                        <i class="fas fa-envelope-square"></i>
+                        CONTACTANOS
+                    </a>
+                   
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-item" id="men">
+                        <a class="nav-menu-link link-submenu active" href="#">
+                            <i class="fas fa-gamepad"></i>
+                            Gaming 
+                            <i
+                                class="zmdi zmdi-chevron-down"></i></a>
+                        <div class="container-sub-menu">
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Accesorios</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Mouse Pad</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Silla Gamer</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Escritorio</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Extensores</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Tu setUp</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#"> Led</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Estantes</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chroma</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Otros</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas Imperdibles</h1>
+                                <h2 class="ads-h2">Hasta el 50% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item" id="women">
+                        <a href="#" class="nav-menu-link link-submenu">
+                            <i class="fas fa-fan"></i>
+                            Componentes<i class="zmdi zmdi-chevron-down">
+                            </i> 
+                        </a>
+                        <div class="container-sub-menu"> 
+
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Tarjetas de video</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Motherboard</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Fuente de poder</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Procesadores</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Ventiladores</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Almacenamiento</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Primarios</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Secundarios</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas Gamer</h1>
+                                <h2 class="ads-h2">Hasta el 50% de descuento</h2>
+                            </div>
+                        </div> 
+                    </li>
+                    <li class="nav-menu-item"><a href="headphones.html" class="nav-menu-link"><i class="fas fa-headphones"></i>Audifonos</a></li>
+                    <li class="nav-menu-item"><a href="keyboard.html" class="nav-menu-link"><i class="fas fa-keyboard"></i>Teclados</a></li>
+                    <li class="nav-menu-item"><a href="mouse.html" class="nav-menu-link"><i class="fas fa-mouse-pointer"></i>Mouse</a></li>
+                    <li class="nav-menu-item"><a href="login.html" class="nav-menu-link"><i class="fas fa-desktop"></i>PC gamer</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <!-- Banner -->
+
+    
+    <div class="banner banner-cover" id="banner-fond">
+        <div class="banner-container ">
+            <h1 class="title-cover" id="cf"><i class="fab fa-d-and-d"></i>CF </h1>
+            <a class="btn btn-default">Comprar combos Gaming</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="nav">
+            <a class="nav-item active has-text-weight-semibold" href="#">Popular</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Novedades</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Más vendidos</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Ofertas</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Muy pronto</a>
+        </nav>
+    </div>
+    <!-- Sección de fotografías -->
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-full-mobile">
+                <div class="columns is-centered is-mobile is-multiline" >
+                    <!-- 1 Sección de fotografías -->
+                    <div class="column is-half column-full" >
+                        <div class="card">
+                            <span class="price">$139.99</span>
+                            <img class="ip" src="productos/teclado-razer-139.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Razer BlackWidow V3 - Interruptor amarillo - EE. UU. - Negro $139.99
+                                 </h4>
+                                <p class="has-text-centered">Teclado mecánico para juegos con Razer Chroma RGB
+                                    cotton.</p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$419.99</span>
+                            <img class="ip" src="productos/mouse-logi.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold">MOUSE PARA JUEGOS DE ALTO DESEMPEÑO G502 HERO $419.99 </h4>
+                                <p class="has-text-centered">Además de las características principales de desempeño y personalización, muchos detalles se diseñaron y crearon meticulosamente. Encontrarás botones principales con interruptores mecánicos con capacidad, cable trenzado con brida de cable de gancho y bucle, recubrimientos laterales de goma, puerta de cavidad de pesas magnética y mucho más.
+
+                                </p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-full">
+                        <div class="card">
+                            <span class="price">$149.99</span>
+                            
+                                <img class="ip" src="productos/razer-audifono.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold">Razer Kaira Pro para Xbox $149.99 </h4>
+                                <p class="has-text-centered">
+                                    Auriculares inalámbricos para Xbox Series X y juegos Xbox móviles
+                                </p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segunda sección de fotografías -->
+            <div class="column is-half is-full-mobile">
+                <div class="columns is-mobile is-multiline">
+                    <div class="column is-full">
+                        <div class="card">
+                            <span class="price"><strike>$499,00</strike> $299.99</span>
+                                <img class="ip" src="productos/silla-gaming-razer.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold">Razer Iskur
+                                    $299.99 </h4>
+                                <p class="has-text-centered">Silla para juegos con soporte lumbar incorporado.
+                                </p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$29.99</span>
+                            <img class="ip" src="productos/mousepad-redragon.png" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Redragon EPEIUS P009 $29.99 </h4>
+                                <p class="has-text-centered">Pad de Mouse con LED
+                                </p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$699.99</span>
+                            <img class="ip" src="productos/nvidiartx3080-tarjeta.png" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> SERIE G EFORCE RTX 30 $699.99 
+
+                                </h4>
+                                <p class="has-text-centered">Las GPU GeForce RTX ™ 30 Series brindan el máximo rendimiento para jugadores y creadores. Están impulsados ​​por Ampere, la arquitectura RTX de segunda generación de NVIDIA, con nuevos RT Cores, Tensor Cores y multiprocesadores de transmisión para obtener los gráficos de trazado de rayos más realistas y las funciones de inteligencia artificial más avanzadas.
+                                    cotton.</p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-full">
+    <div class="columns is-centered is-multiline">
+        <div class="column is-full">
+            <div class="separator"></div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop column-half">
+            <div class="card card-second">
+                <img class="ic" class="card-second-image" src="productos/audifono-redragon-lamia.png" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo Audifonos</h1>
+                    <p class="has-text-right">Cuando no esté jugando en su escritorio o sofá, continúe disfrutando de la experiencia de audio mientras viaja con el factor de forma que se adapta a su estilo de vida.
+                    </p>
+                    <div>
+                        <a href="headphones.html" class="btn btn-default is-size-7">Ver ahora</a>
+                    </div>
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop column-half">
+            <div class="card card-second">
+                <img class="ic" class="card-second-image" src="productos/teclado-redradon.png" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo Teclados</h1>
+                    <p class="has-text-right">Desde los conmutadores mecánicos Razer ™ ganadores de múltiples premios diseñados específicamente para juegos hasta un híbrido de membrana mecánica, descubra el teclado para juegos para usted, equipado con velocidad, precisión y su experiencia de escritura preferida.
+                    </p>
+                    <div>
+                        <a href="keyboard.html" class="btn btn-default is-size-7">Ver ahora</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop">
+            <div class="card card-second">
+                <img class="ic" class="card-second-image" src="productos/mouse-redragon.png" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo Mouse</h1>
+                    <p class="has-text-right">RATONES PARA JUEGOS
+                        Como la marca que prácticamente inventó la categoría de mouse para juegos, sabemos un par de cosas sobre lo que se necesita para hacer un mouse para juegos de alto rendimiento y precisión mortal, y estamos constantemente mejorando nuestro juego para mejorar el tuyo. Ya sea que esté buscando un mouse con cable o inalámbrico, uno especializado para FPS o MOBA, o un diseño adecuado para el agarre de su mouse, nuestro extenso arsenal de mouse para juegos tiene algo para cada jugador. La pregunta es: ¿cuál elegirás?
+                    </p>
+                    <div>
+                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer" class="conf" >
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Información</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">La marca</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Local stores</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Servicios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Porqué comprar</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios y retornos</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Envios seguros</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Testimonios </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Award waining</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Etival trading</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-bold">Tu cuenta</h3>
+                        </li>
+                        <li class="footer-item"><a class="footer-link" href="#">Iniciar sesión</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Registro</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver carrito </a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Ver catálogo</a></li>
+                        <li class="footer-item"><a class="footer-link" href="#">Track an order</a></li>
+                    </ul>
+                
+                <div class="column is-full">
+                    <div class="footer-socials">
+                        <a class="footer-solcials-link" href="https://www.facebook.com/carlapatricia.nunezbarba.372/"><i class="fab fa-facebook"></i></a>
+                        <a class="footer-solcials-link" href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a class="footer-solcials-link" href="https://www.instagram.com/nunez.carla/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                        <a class="footer-solcials-link" href="https://www.pinterest.es/"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar-top">
+            <div class="container">
+                <a class="footer-bar-top-links" href="#">2020 FC Gamer</a>
+            </div>
+        </div>
+    </footer>
+  
+
+</body>
+
+</html>
